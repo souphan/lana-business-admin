@@ -1,0 +1,51 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "reviews": {
+      ".indexOn": [
+        "business"
+      ],
+      ".read": true
+    },
+    "reviews2": {
+      ".indexOn": [
+        "business"
+      ],
+      ".read": true
+    },
+    "products": {
+      ".indexOn": [
+        "business"
+      ],
+      ".read": true
+    },
+    "services": {
+      ".indexOn": [
+        "business"
+      ],
+      ".read": true
+    },
+    "catalogs": {
+      ".indexOn": [
+        "business"
+      ],
+      ".read": true
+    },
+    "news": {
+      ".indexOn": [
+        "business"
+      ],
+      ".read": true
+    },
+    "businesses": {
+      ".read": true
+    },
+    "categories": {
+      ".read": true
+    },
+    "common": {
+      ".read": true
+    }
+  }
+}
